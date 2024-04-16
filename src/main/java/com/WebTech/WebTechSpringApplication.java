@@ -1,4 +1,4 @@
-package com.example.WebTech_spring;
+package com.WebTech;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

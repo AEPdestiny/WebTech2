@@ -1,9 +1,11 @@
+package com.WebTech;
+
 public class Kleidung {
     private String kleidungName;
     private String groesse;
     private int lager;
 
-    public kleidung(String kleidungName, String groesse, int lager) {
+    public Kleidung(String kleidungName, String groesse, int lager) {
         this.kleidungName = kleidungName;
         this.groesse = groesse;
         this.lager = lager;
