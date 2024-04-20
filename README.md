@@ -4,6 +4,11 @@ Ibrahim Danisman
 Matr.Nr. 578949
 Mail-Adresse:  s0578949@htw-berlin.de
 
+Hüseyin Onat
+Matr.Nr. 589549
+Mail-Adresse:  s0589549@htw-berlin.de
+
+
 Lager Logistik von Kleidung
 
 Nach einem Einloggen kann der Nutzer die eingelieferten Kleidungen nach Größe in die verschiedenen Lagern.
