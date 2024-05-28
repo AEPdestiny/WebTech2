@@ -1,5 +1,5 @@
 # Verwende ein offizielles Gradle-Image als Basis
-FROM gradle:openjdk-21 AS build
+FROM gradle:jdk21-jammy AS build
 
 # Setze das Arbeitsverzeichnis
 WORKDIR /home/gradle/src
