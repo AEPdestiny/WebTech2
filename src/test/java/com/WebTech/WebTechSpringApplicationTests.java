@@ -1,4 +1,4 @@
-package com.example.WebTech_spring;
+package com.WebTech;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
