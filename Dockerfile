@@ -17,7 +17,7 @@ FROM eclipse-temurin:21-jdk
 WORKDIR /app
 
 # Kopiere das erstellte JAR-File vom Build-Container in das Laufzeit-Image
-COPY --from=build /home/gradle/src/build/libs/WebTech_spring-0.0.1-SNAPSHOT.jar app.jar
+COPY --from=build WebTech2/build/libs/WebTech_spring-0.0.1-SNAPSHOT.jar app.jar
 
 # Definiere den Befehl zum Starten der Anwendung
 ENTRYPOINT ["java", "-jar", "/app.jar"]
