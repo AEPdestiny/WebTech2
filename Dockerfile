@@ -11,7 +11,7 @@ COPY --chown=gradle:gradle . /home/gradle/src
 RUN gradle build --no-daemon
 
 # Verwende ein offizielles Eclipse Temurin-Image als Basis für den Laufzeit-Container
-FROM eclipse-temurin:openjdk-21
+FROM eclipse-temurin:21-jdk
 
 # Setze das Arbeitsverzeichnis
 WORKDIR /app
