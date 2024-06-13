@@ -1,5 +1,6 @@
 package com.WebTech;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -8,6 +9,9 @@ import java.util.List;
 
 @RestController
 public class KleidungController {
+
+    @Autowired
+    KleidungService service;
 
     @GetMapping("/api/suche")
     @CrossOrigin
