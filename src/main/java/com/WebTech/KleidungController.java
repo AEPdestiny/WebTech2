@@ -14,7 +14,7 @@ public class KleidungController {
     KleidungService service;
 
     @GetMapping("/api/suche")
-    @CrossOrigin
+    @CrossOrigin(origins = "http://localhost:5173")
     public List<Kleidung> kleidungName() {
         Kleidung entry = new Kleidung("Pullover", "S", 2, 4);
         Kleidung entry1 = new Kleidung("T-Shirt", "L", 3, 2);
